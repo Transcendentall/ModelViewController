@@ -1,0 +1,13 @@
+{
+    "require": {
+        "twig/twig": "^3.4",
+        "vlucas/phpdotenv": "^5.4",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "src/Controller/",
+            "Model\\": "src/Model/"
+        }
+    }
+}
